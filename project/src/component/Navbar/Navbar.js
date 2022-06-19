@@ -19,24 +19,28 @@ const Navbar = () => {
 
   const product =[
       {
+        id:1,
         title: 'Collection Name',
         image: proImg,
         productname: 'Product Name',
         price : 'Price'
       },
       {
+        id:2,
         title: 'Collection Name',
         image: proImg,
         productname: 'Product Name',
         price : 'Price'
       },
       {
+        id:3,
         title: 'Collection Name',
         image: proImg,
         productname: 'Product Name',
         price : 'Price'
       },
       {
+        id:4,
         title: 'Collection Name',
         image: proImg,
         productname: 'Product Name',
@@ -75,11 +79,12 @@ const Navbar = () => {
 
           {product.map((item)=>{
           return(
-            <div className='container row row-cols-1 row-cols-md-3 g-4'>
-              <div className='col'>
-                <div className='card'>
-                <button className='btn bg-transparent border-0 icon '><FaRegHeart/></button>
-                <img src={item.image} alt="" /> 
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+              <div className='card'>
+                <button className='btn bg-transparent border-0 icon '><FaRegHeart className='Hicon'/></button>
+                <img src={item.image} alt="" className='card-img' /> 
                 <div className='card-body'>
                 <h6 class="card-title">{item.title}</h6>
                 <button className='btn btn-warning float-end border-dark fw-bold rounded-0'>Shop Now</button>
@@ -87,8 +92,10 @@ const Navbar = () => {
                 <h6 class="card-title">{item.price}</h6>
                 </div>
                 </div>
+              </div> 
               </div>
             </div>
+            
           );
         } )}
         <div>
@@ -132,7 +139,7 @@ const Navbar = () => {
           </div>
           
         </div>
-        <div className='btn1 position-absolute start-50 mt-5 me-5'>
+        <div className='btn2 position-absolute start-50 mt-5 me-5'>
             <button className='d-flex btn btn-dark border-white'>Know More</button>
           </div>
       </>  

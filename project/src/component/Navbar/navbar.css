@@ -52,3 +52,11 @@ height: 130px;
 .colordiv{
     display: block;
 }
+
+.card .card-img:hover{
+    box-shadow:1px 1px 1px 1px black ;
+}
+
+.btn2:hover{
+    box-shadow: 5px 9px black;
+}
