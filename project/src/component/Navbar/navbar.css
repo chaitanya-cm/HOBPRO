@@ -1,0 +1,54 @@
+.banner-img .img1{
+    position: absolute;
+    display: block;
+    width: 196px;
+    height: 174px;
+    left: 10%;
+    top: 130px;
+}
+
+.banner-img .img2{
+    position: absolute;
+    display: block;
+    left: 180px;
+    top: 20px;
+}
+
+.banner-img .img3{
+    position: absolute;
+    display: block;
+    left: 23%;
+    top: 15%;
+}
+
+.banner-img .img4{
+    position:absolute;
+    display: block;
+    left: 15%;
+    top: 30%;
+}
+
+.banner .btn:hover{
+   box-shadow: 10px 5px white;
+}
+
+.card .icon{
+    position: absolute; 
+    top:10px; 
+    left:90%;
+}
+
+.card img{
+    display: block;
+}
+
+.and-img{
+position: absolute;
+left: 70%;
+margin-top: -5%;
+height: 130px;
+}
+
+.colordiv{
+    display: block;
+}
